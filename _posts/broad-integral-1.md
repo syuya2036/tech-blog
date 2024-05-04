@@ -34,7 +34,11 @@ $$
 これは．ロピタルの定理を繰り返し用いることによって，
 
 $$
-\lim_{x \to +0} x^{\varepsilon} (\log x)^n = \lim_{x \to 0} \frac{(\log x)^n}{x^{-\varepsilon}} = \lim_{x \to 0} \frac{n!}{(-\varepsilon)^n} \frac{1}{x^{-\varepsilon}} = 0
+\lim_{x \to +0} x^{\varepsilon} (\log x)^n = \lim_{x \to 0} \frac{(\log x)^n}{x^{-\varepsilon}} 
+$$
+
+$$
+= \lim_{x \to 0} \frac{n!}{(-\varepsilon)^n} \frac{1}{x^{-\varepsilon}} = 0
 $$
 
 と計算できるからである．
