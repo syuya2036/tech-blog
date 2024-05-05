@@ -1,10 +1,10 @@
 ---
 title: '[0->1]x^a (log(x))^nの広義積分が，a>-1で収束することを示す'
 excerpt: ''
-coverImage: '/assets/default.jpeg'
+coverImage: '/assets/default.webp'
 date: '2024-05-05'
 ogImage:
-  url: '/assets/default.jpeg'
+  url: '/assets/default.webp'
 tags:
   - 'math'
   - '解析'
@@ -34,7 +34,7 @@ $$
 これは．ロピタルの定理を繰り返し用いることによって，
 
 $$
-\lim_{x \to +0} x^{\varepsilon} (\log x)^n = \lim_{x \to 0} \frac{(\log x)^n}{x^{-\varepsilon}} 
+\lim_{x \to +0} x^{\varepsilon} (\log x)^n = \lim_{x \to 0} \frac{(\log x)^n}{x^{-\varepsilon}}
 $$
 
 $$
@@ -56,7 +56,7 @@ $$
 よって，適当な実数 $\delta$ が存在して， $0 \lt x \lt \delta$ ならば，
 
 $$
-x^d|x^a (\log x)^n| \lt 1 
+x^d|x^a (\log x)^n| \lt 1
 $$
 
 $$

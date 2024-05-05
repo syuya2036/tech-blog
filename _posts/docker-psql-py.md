@@ -1,10 +1,10 @@
 ---
 title: 'Python×Next.js×PostgreSQLの環境をDockerで構築する'
 excerpt: 'langchainを使った個人開発をするためにPython×Next.js×PostgreSQLの環境をDockerで構築したので、備忘録として残しておきます。'
-coverImage: '/assets/default.jpeg'
+coverImage: '/assets/default.webp'
 date: '2024-01-01'
 ogImage:
-  url: '/assets/default.jpeg'
+  url: '/assets/default.webp'
 tags:
   - 'Docker'
   - 'Python'
@@ -319,6 +319,7 @@ $ docker compose up -d
 `localhost:3000`にアクセスして、`hello from python`が表示されれば OK です。
 
 終了するときは以下のコマンドを実行します。
+
 ```bash
 docker compose down
 ```

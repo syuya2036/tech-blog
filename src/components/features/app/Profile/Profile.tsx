@@ -8,15 +8,13 @@ export const Profile = () => (
       <Image
         className="object-cover w-28 h-28 rounded-full"
         alt="avatar"
-        src="/assets/author.png"
+        src="/assets/author.webp"
       />
       <h1 className="text-2xl font-semibold text-primary-1">shuya</h1>
     </div>
 
     <p className="text-primary-1">
-      MLOpsエンジニアを目指している学生です。
-
-      趣味として競プロをやっています。
+      MLOpsエンジニアを目指している学生です。 趣味として競プロをやっています。
     </p>
 
     <div className="flex gap-4">
